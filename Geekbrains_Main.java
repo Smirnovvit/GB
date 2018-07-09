@@ -1,5 +1,7 @@
 package Geekbrains;
 
+// Java Level 2 HW 3
+
 import java.util.*;
 
 public class Main {
