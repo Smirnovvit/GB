@@ -20,7 +20,7 @@ public class Main
     long a = System.currentTimeMillis ();
     calculate (arr);
     System.out.println ("Время работы первого метода: " +
-			(System.currentTimeMillis () - a));
+			(System.currentTimeMillis () - a)); + "ms"
   }
 
   public void runTwoThreads ()
@@ -56,7 +56,7 @@ public class Main
     System.arraycopy (arr1, 0, arr, 0, HALF_SIZE);
     System.arraycopy (arr2, 0, arr, HALF_SIZE, HALF_SIZE);
     System.out.println ("Время работы второго метода: " +
-			(System.currentTimeMillis () - a));
+			(System.currentTimeMillis () - a)); + "ms"
   }
 
   public static void main (String s[])
